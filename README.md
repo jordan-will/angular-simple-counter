@@ -24,11 +24,13 @@ Application developed in Angular with a focus on learning and exploring:
 
 ## 🖥️ Access the Demo Here
 
-👉 [https://jordanwmp.github.io/angular-simple-counter/](https://jordanwmp.github.io/angular-simple-counter/)
+👉 [https://jordan-will.github.io/angular-simple-counter/](https://jordan-will.github.io/angular-simple-counter/)
 
 ## 🚀 How to Run Locally
 
 ```bash
+download https://jordan-will.github.io/angular-simple-counter/
+cd angular-simple-counter
 npm install
 ng serve
 ```
