@@ -22,11 +22,11 @@ Application developed in Angular with a focus on learning and exploring:
 - Each button is a reusable component with communication via events
 - Visually pleasing application with **background gradient**, centered and responsive layout
 
-## 🖥️ Access the Demo Here
+## 🖥️ Live example
 
-👉 [https://jordan-will.github.io/angular-simple-counter/](https://jordan-will.github.io/angular-simple-counter/)
+👉 You can acess the live example [here](https://jordan-will.github.io/angular-simple-counter/)
 
-## 🚀 How to Run Locally
+## 🚀 How to run locally
 
 ```bash
 download https://jordan-will.github.io/angular-simple-counter/
