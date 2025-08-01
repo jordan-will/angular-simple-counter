@@ -5,8 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:ghpages": "ng build --base-href=/angular-simple-counter",
-    "ghpages": "npx angular-cli-ghpages --dir/angular-simple-counter",
+    "build:ghpages": "ng build --base-href=/simple-counter",
+    "ghpages": "npx angular-cli-ghpages --dir=dist/simple-counter/browser",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

@@ -22,6 +22,27 @@ Application developed in Angular with a focus on learning and exploring:
 - Each button is a reusable component with communication via events
 - Visually pleasing application with **background gradient**, centered and responsive layout
 
+## ✅ Automated Testing
+
+The project includes a complete suite of unit tests using **Jasmine** and **TestBed** to ensure that all components behave correctly.
+
+- 🔘 **Button Component**
+  - Checks if the correct label and color is rendered based on the type
+  - Verifies event emission with `output()` on button click
+
+- 📦 **Card Component**
+  - Validates if the correct count is displayed via `input()` binding
+
+- 🧩 **App Component**
+  - Simulates user interactions by clicking buttons
+  - Verifies the logic for incrementing, decrementing and resetting the counter
+  - Confirms that data flows correctly between parent and child components
+
+> Run tests with:
+```bash
+ng test
+```
+
 ## 🖥️ Access the Demo Here
 
 👉 [https://jordan-will.github.io/angular-simple-counter/](https://jordan-will.github.io/angular-simple-counter/)

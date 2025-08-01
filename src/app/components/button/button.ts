@@ -1,13 +1,14 @@
 import { CommonModule } from '@angular/common';
 import { Component, input, output } from '@angular/core';
 
-type ButtonType = 'increment' | 'decrement' | 'reset'
+export type ButtonType = 'increment' | 'decrement' | 'reset'
 
 @Component({
   selector: 'app-button',
   imports: [CommonModule],
   templateUrl: './button.html',
-  styleUrl: './button.scss'
+  styleUrl: './button.scss',
+  standalone: true
 })
 export class Button {
   
@@ -17,11 +18,10 @@ export class Button {
   get label(){
     switch (this.type()) {
       case 'increment': return '+';
-      case 'decrement': return '–';
+      case 'decrement': return '-';
       case 'reset': return '⭯';
       default: return '?';
     }
-
   }
   
   get bgColor(){
@@ -31,8 +31,6 @@ export class Button {
       case 'reset': return 'gray';
       default: return 'black';
     }
-
-
   }
 
   handleClick(){
